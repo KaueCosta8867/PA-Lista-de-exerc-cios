@@ -12,14 +12,12 @@ public class PrjFesta {
 		mulher = leia.nextInt();
 		salg = (homem*15)+(mulher*10);
 		doce = (homem*6)+(mulher*8);
-		//Passei os bolos de gramas para quilogramas, e as bebidas passei de mililitros para litros.
-		//100g=0,1kg. 600ml=0,6L e 500ml=0,5L.
 		bolo = (homem+mulher)*0.1;
 		bebida = (homem*0.6)+(mulher*0.5);
-		System.out.println("A quantida necess·ria de salgados È:"+salg);
-		System.out.println("A quantidade necess·ria de doces È:"+doce);
-		System.out.println("A quantidade necess·ria de bolo em quilogramas È:"+bolo);
-		System.out.println("A quantidade necess·ria de bebida em litros È:"+bebida);
+		System.out.println("A quantida necess√°ria de salgados √©:"+salg);
+		System.out.println("A quantidade necess√°ria de doces √©:"+doce);
+		System.out.println("A quantidade necess√°ria de bolo em quilogramas √©:"+bolo);
+		System.out.println("A quantidade necess√°ria de bebida em litros √©:"+bebida);
 		leia.close();
 	}
 }
